@@ -15,6 +15,14 @@
 		09751FE32547587B00E89DBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FB82547587700E89DBD /* ContentView.swift */; };
 		09751FE42547587B00E89DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09751FB92547587B00E89DBD /* Assets.xcassets */; };
 		09751FE52547587B00E89DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09751FB92547587B00E89DBD /* Assets.xcassets */; };
+		09751FF52547598900E89DBD /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FF42547598900E89DBD /* Header.swift */; };
+		09751FF62547598900E89DBD /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FF42547598900E89DBD /* Header.swift */; };
+		09751FF825475A5B00E89DBD /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FF725475A5B00E89DBD /* BottomCard.swift */; };
+		09751FF925475A5B00E89DBD /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FF725475A5B00E89DBD /* BottomCard.swift */; };
+		09751FFB25475C5E00E89DBD /* Optionsbars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FFA25475C5E00E89DBD /* Optionsbars.swift */; };
+		09751FFC25475C5E00E89DBD /* Optionsbars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FFA25475C5E00E89DBD /* Optionsbars.swift */; };
+		09751FFE25475D9700E89DBD /* BigCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FFD25475D9700E89DBD /* BigCard.swift */; };
+		09751FFF25475D9700E89DBD /* BigCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09751FFD25475D9700E89DBD /* BigCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,10 @@
 		09751FD92547587B00E89DBD /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09751FDD2547587B00E89DBD /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		09751FDF2547587B00E89DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09751FF42547598900E89DBD /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		09751FF725475A5B00E89DBD /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
+		09751FFA25475C5E00E89DBD /* Optionsbars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionsbars.swift; sourceTree = "<group>"; };
+		09751FFD25475D9700E89DBD /* BigCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,10 @@
 			children = (
 				09751FB72547587700E89DBD /* ArtistAppDribbbleApp.swift */,
 				09751FB82547587700E89DBD /* ContentView.swift */,
+				09751FFD25475D9700E89DBD /* BigCard.swift */,
+				09751FFA25475C5E00E89DBD /* Optionsbars.swift */,
+				09751FF725475A5B00E89DBD /* BottomCard.swift */,
+				09751FF42547598900E89DBD /* Header.swift */,
 				09751FB92547587B00E89DBD /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09751FFB25475C5E00E89DBD /* Optionsbars.swift in Sources */,
 				09751FE22547587B00E89DBD /* ContentView.swift in Sources */,
+				09751FFE25475D9700E89DBD /* BigCard.swift in Sources */,
+				09751FF52547598900E89DBD /* Header.swift in Sources */,
+				09751FF825475A5B00E89DBD /* BottomCard.swift in Sources */,
 				09751FE02547587B00E89DBD /* ArtistAppDribbbleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +337,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09751FFC25475C5E00E89DBD /* Optionsbars.swift in Sources */,
 				09751FE32547587B00E89DBD /* ContentView.swift in Sources */,
+				09751FFF25475D9700E89DBD /* BigCard.swift in Sources */,
+				09751FF62547598900E89DBD /* Header.swift in Sources */,
+				09751FF925475A5B00E89DBD /* BottomCard.swift in Sources */,
 				09751FE12547587B00E89DBD /* ArtistAppDribbbleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
